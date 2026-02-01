@@ -27,3 +27,31 @@ public class arrays {
 
     }
 }
+  
+
+
+//to check whether the element is present in the array//
+import java.util.*;
+public class arrays{
+    public static void main(String[] args){
+        int[] num={10,20,30,40,50};
+        int n=10;
+        boolean found=false;
+        for(int i=0;i<num.length;i++){
+            if(num[i]==n){
+                found=true;
+                break; 
+            }
+        }           
+            
+            if(found){
+                System.out.print("the element is present in array");
+            }
+            else{
+                System.out.print("element is not present in array");
+            }
+        
+        
+
+    }
+}
